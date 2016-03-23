@@ -614,7 +614,7 @@ a.logo_small:after {
 }
 @media only screen and (max-width: 1024px) {
   #upcoming .dialog .dialog_content_wrapper {
-    padding: 2rem;
+    padding: 5%;
   }
 }
 #upcoming .dialog h3 {
