@@ -322,6 +322,11 @@ hr {
 .center {
   text-align: center;
 }
+@media only screen and (max-width: 1024px) {
+  .small_no_margin {
+    margin: 0;
+  }
+}
 .feature {
   -webkit-box-shadow: 0px 0px 6px 0px #dedede;
   -moz-box-shadow: 0px 0px 6px 0px #dedede;
@@ -398,7 +403,7 @@ a.logo_small:before {
   position: absolute;
   top: 94px;
   left: 24px;
-  background: url("../images/arrow.svg");
+  background: url("../images/arrow.svg") no-repeat;
 }
 a.logo_small:after {
   display: block;
@@ -434,7 +439,7 @@ a.logo_small:after {
   top: 136px;
   width: 128px;
   height: 128px;
-  background: url("../images/logo.svg");
+  background: url("../images/logo.svg") no-repeat;
   text-decoration: none;
 }
 .phone a.logo:before {
@@ -445,7 +450,7 @@ a.logo_small:after {
   position: absolute;
   top: 126px;
   left: 92px;
-  background: url("../images/arrow.svg");
+  background: url("../images/arrow.svg") no-repeat;
 }
 .phone a.logo:after {
   display: block;
@@ -568,6 +573,7 @@ a.logo_small:after {
 @media only screen and (max-width: 1024px) {
   #upcoming .dialog {
     padding: 1rem;
+    height: 100%;
   }
 }
 @media only screen and (max-width: 1024px) {
