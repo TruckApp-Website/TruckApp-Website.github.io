@@ -182,6 +182,11 @@ header h1 span {
     transform: none;
   }
 }
+@media only screen and (max-width: 481px) {
+  header h1 {
+    font-size: 3rem;
+  }
+}
 section,
 header .container {
   *zoom: 1;
@@ -578,7 +583,7 @@ a.logo_small:after {
 }
 @media only screen and (max-width: 1024px) {
   #upcoming .dialog .dialog_content_wrapper {
-    padding: 0.25rem 2rem;
+    padding: 2rem;
   }
 }
 #upcoming .dialog h3 {
@@ -615,6 +620,7 @@ a.logo_small:after {
   display: none;
   text-transform: uppercase;
   text-align: center;
+  font-size: 1.5rem;
 }
 @media only screen and (max-width: 1024px) {
   #upcoming .dialog .close_small {
