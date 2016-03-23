@@ -212,6 +212,7 @@ header .container:after {
   clear: both;
 }
 footer {
+  text-align: center;
   background: #333;
   padding: 1.5rem 0;
 }
@@ -231,8 +232,7 @@ footer a {
     padding: 2rem;
   }
 }
-section,
-footer {
+section {
   text-align: center;
   padding: 2.7rem 0;
 }
