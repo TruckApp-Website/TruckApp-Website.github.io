@@ -180,6 +180,7 @@ header h1 span {
     -o-transform: none;
     -ms-transform: none;
     transform: none;
+    padding-right: 0;
   }
 }
 @media only screen and (max-width: 481px) {
@@ -215,6 +216,7 @@ footer {
   padding: 1.5rem 0;
 }
 footer a {
+  color: #676a6c;
   text-decoration: underline dotted #676a6c;
 }
 @media only screen and (max-width: 1024px) {
@@ -232,10 +234,10 @@ footer a {
 section,
 footer {
   text-align: center;
-  margin-top: 5.5rem;
+  padding: 2.7rem 0;
 }
-section:first-of-type {
-  margin-top: 3rem;
+section:last-of-type {
+  padding-bottom: 5.4rem;
 }
 h2 {
   font-size: 2rem;
@@ -275,9 +277,9 @@ p:last-of-type {
   }
 }
 a {
-  color: #676a6c;
+  color: #f57c00;
   font-weight: 400;
-  text-decoration: underline dotted #333;
+  text-decoration: underline dotted #f57c00;
 }
 hr {
   margin: 2rem 0;
@@ -468,9 +470,23 @@ a.logo_small:after {
   left: -8px;
 }
 .weaker {
-  opacity: 0.75;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=75)";
-  filter: alpha(opacity=75);
+  opacity: 0.6;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
+  filter: alpha(opacity=60);
+}
+#flavour {
+  background: #f57c00;
+  max-width: none;
+  color: #fff;
+}
+#flavour h2 {
+  margin-bottom: 2rem;
+}
+#flavour h2:before {
+  visibility: hidden;
+}
+#flavour p {
+  color: #fff;
 }
 .badges {
   margin-top: 1rem;
@@ -512,9 +528,9 @@ a.logo_small:after {
   }
 }
 .badges a img {
-  opacity: 0.8;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
-  filter: alpha(opacity=80);
+  opacity: 1;
+  -ms-filter: none;
+  filter: none;
   -webkit-transition: opacity 0.3s ease-in-out;
   -moz-transition: opacity 0.3s ease-in-out;
   -webkit-transition: opacity 0.3s ease-in-out;
